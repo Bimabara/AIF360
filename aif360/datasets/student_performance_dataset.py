@@ -29,7 +29,7 @@ class StudentPerformanceData(StandardDataset):
         except IOError as err:
             print("IOError: {}".format(err))
             print("To use this class, please download the following file:")
-            print("\n\thttps://archive.ics.uci.edu/ml/machine-learning-databases/00222/bank-additional.zip")
+            print("\n\thttps://archive.ics.uci.edu/ml/machine-learning-databases/00320/")
             print("\nunzip it and place the files, as-is, in the folder:")
             print("\n\t{}\n".format(os.path.abspath(os.path.join(
                os.path.abspath(__file__), '..', '..', 'data', 'raw', 'bank'))))
